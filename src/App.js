@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import "./assets/font-awesome/css/all.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./assets/css/style.css";
+import "./assets/css/config.css";
 import './App.css';
-
+import enUs from '@arco-design/web-react/es/locale/en-US'
+import LayoutMain from "./LayoutMain";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <LayoutMain/>
+    </>
   );
 }
 
